@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html, body {
+  font-size: 1.05rem
+}
+
+.yy {
+background-color: "#888888"
+}
+
+.activeNavLink {
+  font-weight: "bold"
+}
+
+.container {
+  position: relative;
+}
+
+.page {
+  position: absolute;
+}
+
+.page-enter {
+  opacity: 0;
+  /* transform: scale(0.7); */
+}
+
+.page-enter-active {
+  opacity: 1;
+  /* transform: scale(1.0); */
+  transition: opacity 300ms, transform 500ms;
+}
+
+.page-exit {
+  opacity: 1;
+  /* transform: scale(1); */
+}
+
+.page-exit-active {
+  opacity: 0;
+  /* transform: scale(1.1); */
+  transition: opacity 300ms, transform 500ms;
+}
